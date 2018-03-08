@@ -1,0 +1,75 @@
+package com.bharath.invoice.crud;
+
+public class Invoice {
+	int id;
+	String firstName;
+	String productName;
+	double productCost;
+	double discount;
+	String transactionType;
+	String decision;
+	public Invoice(int id, String firstName, String productName, double productCost, double discount,
+			String transactionType, String decision) {
+		super();
+		this.id = id;
+		this.firstName = firstName;
+		this.productName = productName;
+		this.productCost = productCost;
+		this.discount = discount;
+		this.transactionType = transactionType;
+		this.decision = decision;
+	}
+	public Invoice() {
+		
+	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getFirstName() {
+		return firstName;
+	}
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+	public String getProductName() {
+		return productName;
+	}
+	public void setProductName(String productName) {
+		this.productName = productName;
+	}
+	public double getProductCost() {
+		return productCost;
+	}
+	public void setProductCost(double productCost) {
+		this.productCost = productCost;
+	}
+	public double getDiscount() {
+		return discount;
+	}
+	public void setDiscount(double discount) {
+		this.discount = discount;
+	}
+	public String getTransactionType() {
+		return transactionType;
+	}
+	public void setTransactionType(String transactionType) {
+		this.transactionType = transactionType;
+	}
+	public String getDecision() {
+		return decision;
+	}
+	public void setDecision(String decision) {
+		this.decision = decision;
+	}
+	@Override
+	public String toString() {
+		return "Invoice [id=" + id + ", firstName=" + firstName + ", productName=" + productName + ", productCost="
+				+ productCost + ", discount=" + discount + ", transactionType=" + transactionType + ", decision="
+				+ decision + "]";
+	}
+	
+	
+}

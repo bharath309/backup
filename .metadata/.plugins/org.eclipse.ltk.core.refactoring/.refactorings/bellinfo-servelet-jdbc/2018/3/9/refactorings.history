@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;com.bharath.servlet.jdbc&apos; to &apos;invoice-crud-operation/src/main/java/com.bharath.invoice.crud&apos;&#x0D;&#x0A;- Original project: &apos;bellinfo-servelet-jdbc&apos;&#x0D;&#x0A;- Destination element: &apos;invoice-crud-operation/src/main/java/com.bharath.invoice.crud&apos;&#x0D;&#x0A;- Original element: &apos;bellinfo-servelet-jdbc/src/main/java/com.bharath.servlet.jdbc&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=invoice-crud-operation/src\/main\/java&lt;com.bharath.invoice.crud" element1="/src\/main\/java&lt;com.bharath.servlet.jdbc" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1519895817124" version="1.0"/>
+</session>

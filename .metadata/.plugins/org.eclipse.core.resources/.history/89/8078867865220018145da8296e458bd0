@@ -1,0 +1,25 @@
+package com.bharath.belljava_spring_ioc;
+
+public class LaptopDetails {
+private String name;
+private String brand;
+private double cost;
+private int count;
+public LaptopDetails(String name, String brand, double cost, int count) {
+	super();
+	this.name = name;
+	this.brand = brand;
+	this.cost = cost;
+	this.count = count;
+}
+	
+	public LaptopDetails() {
+	// TODO Auto-generated constructor stub
+}
+
+	@Override
+	public String toString() {
+		return "LaptopDetails [name=" + name + ", brand=" + brand + ", cost=" + cost + ", count=" + count + "]";
+	}
+
+}

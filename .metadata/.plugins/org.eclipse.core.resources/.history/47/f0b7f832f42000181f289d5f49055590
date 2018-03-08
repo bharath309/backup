@@ -1,0 +1,78 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Bootstrap 4 Example</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+
+
+<body
+	background="C:/Users/bhara/eclipse-workspace/netflix-operation/src/main/webapp/img/lofoten-fishing-village-nordland-county-norway-europe-mountains-geography.jpg">
+	<div class="container-fluid">
+		<h1 style="color: red; float: left; display: inline;">
+			<strong>NETFLIX</strong>
+		</h1>
+	</div>
+	<ul class="nav" style="float: right; padding: 20px 20px 0 20px">
+		<li class="nav-item">
+			<button type="button" class="btn btn-danger">Sign In</button>
+		</li>
+	</ul>
+	<br>
+
+	<div class="container-fluid" style="float: left;">
+		<div class="col-sm-6" style="padding: 90px 0 0 0">
+			<h1 style="font-size: 42px; color: #ffffff;">See What's Next.</h1>
+			<h2 style="font-size: 28px; color: #ffffff;">WATCH ANYWHERE.
+				CANCEL ANYTIME.</h2>
+			<button type="button" class="btn btn-danger">JOIN FREE FOR A
+				MONTH</button>
+		</div>
+	</div>
+	<br>
+	<div class="container">
+		<div class="col-sm-*" >
+		<table><tr><th>
+			<button type="button" class="btn btn-info" align="center" data-toggle="collapse" data-target="#demo">Simple collapsible</button>
+			<div id="demo" class="collapse">Lorem ipsum dolor sit amet,
+				consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+				labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+				exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.
+			</div></th><th>
+			<button type="button" class="btn btn-info" align="center" data-toggle="collapse" data-target="#demo">Simple	collapsible</button>
+			<div id="demo" class="collapse">Lorem ipsum dolor sit amet,
+				consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+				labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+				exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.
+			</div></th><th>
+			<button type="button" class="btn btn-info" align="center" data-toggle="collapse" data-target="#demo">Simple collapsible</button>
+			<div id="demo" class="collapse">Lorem ipsum dolor sit amet,
+				consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+				labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+				exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.
+			</div></th>
+			</tr>
+			</table>
+		</div>
+		<div class="col-sm-4"></div>
+		<div class="col-sm-4"></div>
+	</div>
+	<%@ include file="footerNetflix.jsp"%>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+package com.bharath.designpatterns;
+
+import java.util.ArrayList;
+import java.util.Date;
+
+public class HotelBooking {
+			
+	public ArrayList<String> hotelbooking(Date from, Date to){
+		
+	}
+	
+	
+	
+	
+}

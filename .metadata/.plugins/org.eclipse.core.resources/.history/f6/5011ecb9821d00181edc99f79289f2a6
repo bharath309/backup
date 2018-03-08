@@ -1,0 +1,19 @@
+package com.bharath.invoice.crud;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+
+public class DeleteInvoiceRecord {
+
+	InvoiceCrudRepo incr=new InvoiceCrudRepo();
+	Connection con=null;
+	PreparedStatement ps=null;
+	public void deleteInvoicerecord() {
+		
+		con=incr.getConnection();
+		
+		String sdquery="delete from invoice where id=?";
+		ps=con.prepareStatement(sdquery);
+		
+	}
+}

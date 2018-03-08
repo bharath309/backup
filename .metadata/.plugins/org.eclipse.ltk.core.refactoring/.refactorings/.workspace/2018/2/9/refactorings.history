@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;bharath-webapp-arch&apos;" deleteContents="false" description="Delete resource &apos;bharath-webapp-arch&apos;" element1="/bharath-webapp-arch" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1519694301941"/>&#x0A;<refactoring comment="Delete resource &apos;belljava8.simple-arch&apos;" deleteContents="false" description="Delete resource &apos;belljava8.simple-arch&apos;" element1="/belljava8.simple-arch" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1519750008925"/>
+</session>

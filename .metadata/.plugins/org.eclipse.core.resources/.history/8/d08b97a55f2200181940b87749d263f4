@@ -1,0 +1,10 @@
+package com.bharath.belljava_spring_ioc;
+
+public class LaptopDetails {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

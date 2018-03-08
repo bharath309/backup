@@ -1,0 +1,32 @@
+package com.bharath.invoice.crud;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+public class UpdateInvoiceRecord {
+	InvoiceCrudRepo incr=new InvoiceCrudRepo();
+	Connection con = null;
+	PreparedStatement psmt = null;
+	private static final String UPDATE_INVOICE_RECORD="UPDATE INVOICE SET CNAME=?,PNAME=?,COST=?,DISCOUNT=?, TRANSACTION=?,DECISION=?";
+
+	public int updateInvoiceRecord(Invoice invoice) {
+		con=incr.getConnection();
+		int result=0;
+		try {
+			psmt=con.prepareStatement(UPDATE_INVOICE_RECORD);
+			psmt.setInt(1, ids);
+			psmt.setString(2,name);
+			psmt.setString(3,pname);
+			psmt.setDouble(4,cost);
+			psmt.setDouble(5,discount);
+			psmt.setString(6,transaction);
+			psmt.setString(7,decision);
+			result=psmt.executeUpdate();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return result;
+	}
+}

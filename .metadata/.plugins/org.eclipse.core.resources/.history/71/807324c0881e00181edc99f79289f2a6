@@ -1,0 +1,17 @@
+package com.bharath.designpatterns;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Date;
+
+public class CarBooking {
+	public ArrayList<String> hotelbooking(Date from, Date to){
+
+		ArrayList al=(ArrayList) Arrays.asList("campact","fullsize","luxary");
+
+
+		return al;
+
+	}
+
+}

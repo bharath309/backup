@@ -1,0 +1,33 @@
+package com.bharath.designpatterns;
+
+public class SingletonDemo {
+
+	public static void main(String[] args) {
+		PropertyLoader p1=new PropertyLoader();
+		PropertyLoader p2=new PropertyLoader();
+		
+		
+	}
+	
+	
+}
+class PropertyLoader{
+	int a=10;
+	public static PropertyLoader loader=null;
+	private PropertyLoader() {
+		System.out.println();
+	}
+	
+	public static PropertyLoader getInstance() {
+		if(loader==null) {
+			loader=new PropertyLoader();
+			
+		}
+		return loader;
+	}
+	void methode() {
+		
+	}
+	
+	
+}

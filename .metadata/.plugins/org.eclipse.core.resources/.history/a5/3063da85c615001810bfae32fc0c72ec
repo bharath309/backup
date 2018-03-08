@@ -1,0 +1,10 @@
+package com.bharath.javaassign6;
+
+public class ThreeDimentionalMultiplecation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

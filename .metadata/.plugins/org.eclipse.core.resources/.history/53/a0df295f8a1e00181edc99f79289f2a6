@@ -1,0 +1,21 @@
+package com.bharath.designpatterns;
+
+import java.util.ArrayList;
+import java.util.Date;
+
+public class FacadeDemo {
+HotelBooking hb=null;
+FlightBooking fb=null;
+CarBooking cb =null;
+
+	
+	void getHotelsFlightsAndCars(Date from,Date to) {
+		ArrayList<String> hotel=hb.getHotels(new Date(), new Date());
+		ArrayList<String> car=cb.getCars(new Date(), new Date());
+		ArrayList<String> flight=fb.getFlights(new Date(), new Date());
+		
+		System.out.println(hotel);
+		System.out.println(car);
+		System.out.println(flight);
+	}
+}

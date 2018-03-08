@@ -1,0 +1,5 @@
+127.0.0.1 - - [07/Mar/2018:15:32:46 -0500] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [07/Mar/2018:15:32:48 -0500] "GET /invoice-crud-operation/ HTTP/1.1" 200 2401
+0:0:0:0:0:0:0:1 - - [07/Mar/2018:15:32:56 -0500] "POST /invoice-crud-operation/show.do HTTP/1.1" 500 7356
+0:0:0:0:0:0:0:1 - - [07/Mar/2018:15:33:02 -0500] "GET null null" 400 -
+0:0:0:0:0:0:0:1 - - [07/Mar/2018:15:33:05 -0500] "POST /invoice-crud-operation/show.do HTTP/1.1" 500 7356

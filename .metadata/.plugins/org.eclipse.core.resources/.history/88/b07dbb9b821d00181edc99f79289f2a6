@@ -1,0 +1,5 @@
+package com.bharath.invoice.crud;
+
+public class DeleteInvoiceRecord {
+
+}

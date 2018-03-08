@@ -1,0 +1,21 @@
+package com.bharath.designpatterns;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Date;
+
+public class HotelBooking {
+			
+	public ArrayList<String> getHotels(Date from, Date to){
+		
+		ArrayList al=(ArrayList) Arrays.asList("hapmtonInn","daysInn","holydayInn");
+		
+		
+		return al;
+		
+	}
+	
+	
+	
+	
+}

@@ -1,0 +1,28 @@
+package com.bharath.javaassign6;
+
+import java.util.Scanner;
+
+public class TwoDimentionalMultiplication {
+ 
+	@SuppressWarnings("resource")
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner in=new Scanner(System.in);
+		int a=in.nextInt();
+		
+			
+		
+		int [][]x = {{a},{1,2,3,4,5,6,7,8,9,10}};
+		System.out.println(x[1].length);
+		for(int i=0;i<x.length;i++) {	
+			
+				for(int y=0;y<x[1].length;y++) {
+					
+					System.out.println(x[0][y]);
+					//System.out.println(x[0][i]+"*"+x[1][y]+"="+x[0][i]*x[1][y]);
+				}
+			}
+	}
+
+}

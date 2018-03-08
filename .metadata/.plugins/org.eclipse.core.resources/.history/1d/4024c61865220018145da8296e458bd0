@@ -1,0 +1,10 @@
+package com.bharath.belljava_spring_ioc;
+
+public class LaptopDetails {
+private String name;
+private String brand;
+private double cost;
+private int count;
+	
+
+}
